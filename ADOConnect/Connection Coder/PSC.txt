@@ -1,0 +1,24 @@
+This little utility allows the user to select an Access database and then generates the code 
+to make a connection. It also allows the user to select a table from the database which then 
+generates a simple SQL.
+ 
+If there is sufficient interest I will continue to develope code writing programs and submit 
+them to PlanetSourceCode. 
+
+Although a few votes would be nice I am more interested in feedback. 
+
+Taken from an idea by Carlos Vara, thanks.
+
+Update 16:14 07/06/2004
+When Testing this routine under Windows 2000 with Original Visual Basic 6.0 Learning edition there
+were problems. However after installing Visual Studio 6 Service Pack 5 all was ok. Let me know if 
+you are unable to run the programs.
+
+Also ensure that you add references to
+
+	Microsoft ADO.ext for DLL and Security
+	Microsoft ActiveX Data Objects 2.5 Library
+
+in the projects.
+
+John Attfield
